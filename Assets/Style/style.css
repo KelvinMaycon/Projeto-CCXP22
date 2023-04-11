@@ -21,8 +21,8 @@ main{
 }
 
 #left{
-    width: 47rem;
-    height: 42rem;
+    width: 49rem;
+    height: 47rem;
     background-color: #514988;
 }
 #left h1{
@@ -42,20 +42,80 @@ main{
 }
 
 #left p{
-    font-size: 23px;
+    font-size: 28px;
     line-height: 35px;   
     text-align: center;
     color: #FFFFFF;
-    width: 33rem;
+    width: 40rem;
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 5rem;
+}
+
+#right{
+    width: 60rem;
+    margin-left: -6rem;
+
 }
 
 .timer{
     display: grid;
     grid-auto-flow: column;
+    font-weight: 700;
+    font-size: 70px;   
+    color: #514988;
+    justify-content: space-between;
+    margin-top: -2rem;
+    margin-left: 2rem;
 }
 
+ #right h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    color: #E33881;
+    margin-top: -4rem;
+ }
+
 .video{
-    width: 40rem;
+    width: 65rem;
+}
+
+#p{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    color: #F3C61F;
+    margin-left: 8rem;
+}
+
+section #img{
+    margin-left: 7rem;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 3rem;
+}
+
+section button{
+    margin-top: 2rem;
+    width: 596px;
+    height: 148px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 20px;
+    background-color: #514988;
+    border: none;
+    cursor: pointer;
+
+}
+
+section button:hover{
+    color:#F3C61F;
 }
