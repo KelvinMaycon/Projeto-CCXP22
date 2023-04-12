@@ -7,7 +7,7 @@ body{
 header{
     background-color: #FFD900;
     height: 6rem;
-    width: 100%;
+    
 }
 
 header img{
@@ -118,4 +118,85 @@ section button{
 
 section button:hover{
     color:#F3C61F;
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        width: 24.4rem;
+    }
+
+    header img{        
+        display: flex;
+        margin: auto;
+    }
+
+    main{
+        grid-auto-flow: row;
+    }
+
+    #left{
+        width: 24.4rem;
+        height: 60rem;
+    }
+
+    #left h1{
+        font-size: 55px;
+        line-height: 65px;
+        margin-bottom: 6rem;
+    }
+
+    #left h2{
+        font-size: 23px;
+    }
+
+    #left p{
+        font-size: 23px;
+        width: 20rem;
+    }
+
+    main video{
+        display: none;
+    }
+
+    #right{
+        width: 30.4rem;
+    }
+
+    .timer{
+        width: 80%;
+        font-size: 30px;
+        justify-content:space-around;
+        margin-left: 6rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    #right h3{
+        width: 20rem;
+        font-size: 20px;
+        margin-left: 8rem;
+    }
+
+    #p{
+        width: 20rem;
+        margin-left: 2.5rem;
+        text-align: center;
+    }
+
+    section{
+        display: block;
+        margin-left: -1rem;
+    }
+
+    #img img{
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+    }
+
+    section button{
+        width: 19rem;
+        height: 6rem;
+        margin-left: 3.5rem;
+        font-size: 30px;
+    }
 }
